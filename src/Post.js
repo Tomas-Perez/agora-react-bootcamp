@@ -4,21 +4,11 @@ import {Card, CardActionArea, CardContent, Typography, Button, CardActions} from
 import { Component } from "react";
 
 class Post extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
       <Card>
         <CardActionArea>
-          {/* <CardMedia
-            component="img"
-            alt="Contemplative Reptile"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
-          /> */}
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               {this.props.post.title}
