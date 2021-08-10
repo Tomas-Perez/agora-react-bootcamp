@@ -31,6 +31,8 @@ class Home extends Component {
     });
   }
 
+  // TODO do something else
+
   async addItem() {
     this.setState({
       loading: true,
