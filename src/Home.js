@@ -31,7 +31,7 @@ class Home extends Component {
     });
   }
 
-  // TODO: another thing
+  // TODO do something else
 
   async addItem() {
     this.setState({
